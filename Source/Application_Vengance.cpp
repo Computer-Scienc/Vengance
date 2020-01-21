@@ -28,26 +28,17 @@ void VApplication_Vengance::Update()
     {
         SDL_Event e;
         while (SDL_PollEvent(&e)){
-            /*
-            if (e->type == SDL_WINDOWEVENT)
-            {
 
-                if(e->type == SDL_WINDOWEVENT)
+
+            if(e.type == SDL_WINDOWEVENT)
+            {
+                if(e.window.event == SDL_WINDOWEVENT_CLOSE)
                 {
-                    if(e->window.event == SDL_WINDOWEVENT_FOCUS_GAINED)
+                    Uint32 mainWindowID = SDL_GetWindowID(winManager.mainWindow->sdl_window);
+                    if( e.window.windowID ==  mainWindowID)
                     {
-                        e->window.windowID
+                        VLogger::LogToConsole("Closing main window.", Critical::Info);
                     }
-                }
-
-            }
-            */
-            if( e.type == SDL_QUIT )
-            {
-                Uint32 mainWindowID = SDL_GetWindowID(winManager.mainWindow->sdl_window);
-                if( e.window.windowID ==  mainWindowID)
-                {
-                    VLogger::LogToConsole("Closing main window.", Critical::Info);
                 }
             }
         }
