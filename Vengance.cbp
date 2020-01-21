@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="Vengence" />
+		<Option title="Vengance" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
@@ -18,6 +18,8 @@
 					<Add directory="Include" />
 					<Add directory="Source/Librarys" />
 					<Add directory="Librarys" />
+					<Add directory="Source/Engine" />
+					<Add directory="Source/Engine/Data" />
 				</Compiler>
 				<Linker>
 					<Add directory="Librarys" />
@@ -35,6 +37,8 @@
 					<Add directory="./" />
 					<Add directory="Source/Librarys" />
 					<Add directory="Librarys" />
+					<Add directory="Source/Engine" />
+					<Add directory="Source/Engine/Data" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -51,12 +55,14 @@
 					<Add option="-DGLEW_STATIC" />
 					<Add directory="Source" />
 					<Add directory="Include" />
-					<Add directory="Source/Librarys" />
-					<Add directory="Librarys" />
 				</Compiler>
+				<ResourceCompiler>
+					<Add directory="../Vengance" />
+				</ResourceCompiler>
 				<Linker>
-					<Add option="-lSDL2" />
+					<Add option="-lmingw32" />
 					<Add option="-lSDL2main" />
+					<Add option="-lSDL2" />
 					<Add option="-lglew32" />
 					<Add option="-lopengl32" />
 					<Add directory="Librarys" />
@@ -74,6 +80,8 @@
 					<Add directory="./" />
 					<Add directory="Source/Librarys" />
 					<Add directory="Librarys" />
+					<Add directory="Source/Engine" />
+					<Add directory="Source/Engine/Data" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -83,10 +91,36 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="Source/Application.cpp" />
-		<Unit filename="Source/Application.h" />
-		<Unit filename="Source/Object.cpp" />
-		<Unit filename="Source/Object.h" />
+		<Unit filename="Source/Application_Vengance.cpp" />
+		<Unit filename="Source/Application_Vengance.h" />
+		<Unit filename="Source/Engine/Application.cpp" />
+		<Unit filename="Source/Engine/Application.h" />
+		<Unit filename="Source/Engine/Data/Enum.cpp" />
+		<Unit filename="Source/Engine/Data/Enum.h" />
+		<Unit filename="Source/Engine/Input.cpp" />
+		<Unit filename="Source/Engine/Input.h" />
+		<Unit filename="Source/Engine/Library.cpp" />
+		<Unit filename="Source/Engine/Library.h" />
+		<Unit filename="Source/Engine/LibraryManager.cpp" />
+		<Unit filename="Source/Engine/LibraryManager.h" />
+		<Unit filename="Source/Engine/Librarys/Library_SDL2.cpp" />
+		<Unit filename="Source/Engine/Librarys/Library_SDL2.h" />
+		<Unit filename="Source/Engine/Logger.cpp" />
+		<Unit filename="Source/Engine/Logger.h" />
+		<Unit filename="Source/Engine/Object.cpp" />
+		<Unit filename="Source/Engine/Object.h" />
+		<Unit filename="Source/Engine/Render.cpp" />
+		<Unit filename="Source/Engine/Render.h" />
+		<Unit filename="Source/Engine/Window.cpp" />
+		<Unit filename="Source/Engine/Window.h" />
+		<Unit filename="Source/Engine/WindowManager.cpp" />
+		<Unit filename="Source/Engine/WindowManager.h" />
+		<Unit filename="Source/LibraryManager_Vengance.cpp" />
+		<Unit filename="Source/LibraryManager_Vengance.h" />
+		<Unit filename="Source/Main.cpp" />
+		<Unit filename="icon.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
 		<Extensions>
 			<code_completion />
 			<envvars />
