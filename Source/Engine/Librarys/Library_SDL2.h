@@ -1,7 +1,7 @@
 #ifndef VLIBRARY_SDL2_H
 #define VLIBRARY_SDL2_H
 
-#include "Engine/Library.h"
+#include "../Library.h"
 
 #include <SDL2/SDL.h>
 

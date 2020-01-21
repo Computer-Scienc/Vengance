@@ -17,6 +17,7 @@ void VApplication_Vengance::Init()
 
     //Create Window
     winManager.Init();
+    winManager.NewWindow("");
 }
 
 void VApplication_Vengance::Update()
@@ -38,6 +39,16 @@ void VApplication_Vengance::Update()
                     if( e.window.windowID ==  mainWindowID)
                     {
                         VLogger::LogToConsole("Closing main window.", Critical::Info);
+                        mainWindowOpen = false;
+                    }
+                    else
+                    {
+                        //Save data that was working in other window
+
+
+                        //Close window
+                        VLogger::LogToConsole("Closing child window.", Critical::Info);
+                        winManager.getWindowFromID(e.window.windowID)->Close();
                     }
                 }
             }

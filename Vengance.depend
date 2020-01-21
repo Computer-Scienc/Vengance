@@ -463,3 +463,918 @@
 	"Engine/Library.h"
 	<SDL2/SDL.h>
 
+1579622135 source:/home/caden/Documents/GitHub/Vengance/Source/Application_Vengance.cpp
+	"Application_Vengance.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Source/Application_Vengance.h
+	"Engine/Application.h"
+	"LibraryManager_Vengance.h"
+	"Engine/WindowManager.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Source/Engine/Application.h
+	"Object.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Source/Engine/Object.h
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Source/LibraryManager_Vengance.h
+	"Engine/LibraryManager.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Source/Engine/LibraryManager.h
+	"Object.h"
+	<string>
+	<vector>
+
+1579607945 /home/caden/Documents/GitHub/Vengance/Source/Engine/WindowManager.h
+	"Object.h"
+	"Window.h"
+
+1579636266 /home/caden/Documents/GitHub/Vengance/Source/Engine/Window.h
+	"Object.h"
+	"Librarys/Library_SDL2.h"
+
+1579624836 /home/caden/Documents/GitHub/Vengance/Source/Engine/Librarys/Library_SDL2.h
+	"../Library.h"
+	<SDL2/SDL.h>
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Source/Engine/Library.h
+	"Object.h"
+	"Logger.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Source/Engine/Logger.h
+	"Object.h"
+	<string>
+	"Engine/Data/Enum.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Source/Engine/Data/Enum.h
+	<map>
+	<string>
+	<vector>
+	<algorithm>
+	<sstream>
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_config.h
+	"SDL_platform.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/begin_code.h
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/close_code.h
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_scancode.h
+	"SDL_stdinc.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1579605502 source:/home/caden/Documents/GitHub/Vengance/Source/Engine/Application.cpp
+	"Application.h"
+	"Logger.h"
+
+1579605407 source:/home/caden/Documents/GitHub/Vengance/Source/Engine/Data/Enum.cpp
+	"Enum.h"
+
+1579605407 source:/home/caden/Documents/GitHub/Vengance/Source/Engine/Input.cpp
+	"Input.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Source/Engine/Input.h
+	"Object.h"
+
+1579605407 source:/home/caden/Documents/GitHub/Vengance/Source/Engine/Library.cpp
+	"Library.h"
+
+1579605407 source:/home/caden/Documents/GitHub/Vengance/Source/Engine/LibraryManager.cpp
+	"LibraryManager.h"
+	"Library.h"
+	"Logger.h"
+
+1579605407 source:/home/caden/Documents/GitHub/Vengance/Source/Engine/Librarys/Library_SDL2.cpp
+	"Library_SDL2.h"
+
+1579605407 source:/home/caden/Documents/GitHub/Vengance/Source/Engine/Logger.cpp
+	"Logger.h"
+	<iostream>
+	<fstream>
+
+1579605407 source:/home/caden/Documents/GitHub/Vengance/Source/Engine/Object.cpp
+	"Object.h"
+
+1579622695 source:/home/caden/Documents/GitHub/Vengance/Source/Engine/Render.cpp
+	"Render.h"
+	"Librarys/Library_SDL2.h"
+	<imgui.h>
+	<imgui_impl_opengl3.h>
+	<imgui_impl_sdl.h>
+	"Window.h"
+
+1579637032 /home/caden/Documents/GitHub/Vengance/Source/Engine/Render.h
+	"Object.h"
+	<string>
+
+1579636380 source:/home/caden/Documents/GitHub/Vengance/Source/Engine/Window.cpp
+	"Window.h"
+	"Render.h"
+
+1579610253 source:/home/caden/Documents/GitHub/Vengance/Source/Engine/WindowManager.cpp
+	"WindowManager.h"
+	"Logger.h"
+
+1579605524 source:/home/caden/Documents/GitHub/Vengance/Source/LibraryManager_Vengance.cpp
+	"LibraryManager_Vengance.h"
+	"Engine/Librarys/Library_SDL2.h"
+
+1579605407 source:/home/caden/Documents/GitHub/Vengance/Source/Main.cpp
+	"Application_Vengance.h"
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Include/imgui.h
+	"imconfig.h"
+	<float.h>
+	<stdarg.h>
+	<stddef.h>
+	<string.h>
+	<assert.h>
+	<stdint.h>
+	"imgui_user.h"
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Include/imconfig.h
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Include/imgui_user.h
+	"./addons/imgui_user.h"
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Include/addons/imgui_user.h
+	"./imguiyesaddons/imguibz2.h"
+	"./imguiyesaddons/imguistringifier.h"
+	"./imguiyesaddons/imguiemscriptenpersistentfolder.h"
+	"./imguistring/imguistring.h"
+	"./imguihelper/imguihelper.h"
+	"./imguitabwindow/imguitabwindow.h"
+	"./imguibindings/imguibindings.h"
+	"./imguilistview/imguilistview.h"
+	"./imguifilesystem/imguifilesystem.h"
+	"./imguitoolbar/imguitoolbar.h"
+	"./imguipanelmanager/imguipanelmanager.h"
+	"./imguivariouscontrols/imguivariouscontrols.h"
+	"./imguistyleserializer/imguistyleserializer.h"
+	"./imguidatechooser/imguidatechooser.h"
+	"./imguicodeeditor/imguicodeeditor.h"
+	"./imguinodegrapheditor/imguinodegrapheditor.h"
+	"./imguidock/imguidock.h"
+	"./imguiyesaddons/imguipdfviewer.h"
+	"./imguiyesaddons/imguisdf.h"
+	"./imguiyesaddons/imguitinyfiledialogs.h"
+	"./imguiyesaddons/imguisqlite3.h"
+	"./imguiyesaddons/imguiimageeditor.h"
+	"./imguiyesaddons/imguifreetype.h"
+	"./imguiyesaddons/imguisoloud.h"
+	"./imguiyesaddons/imguiminigames.h"
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Include/addons/imguiyesaddons/imguibz2.h
+	<imgui.h>
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Include/addons/imguiyesaddons/imguistringifier.h
+	<imgui.h>
+	"encodedOutput.inl"
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Include/addons/imguiyesaddons/imguiemscriptenpersistentfolder.h
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Include/addons/imguistring/imguistring.h
+	<imgui.h>
+	<string.h>
+	<string>
+	<vector>
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Include/addons/imguihelper/imguihelper.h
+	<imgui.h>
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Include/addons/imguitabwindow/imguitabwindow.h
+	<imgui.h>
+	<string.h>
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Include/addons/imguibindings/imguibindings.h
+	<imgui.h>
+	<windows.h>
+	<imm.h>
+	<OpenGL/glew.h>
+	<GL/glew.h>
+	<glad/glad.h>
+	<GL/gl3w.h>
+	<OpenGL/glut.h>
+	<GL/glut.h>
+	<OpenGL/freeglut_ext.h>
+	<GL/freeglut_ext.h>
+	<SDL2/SDL_opengl.h>
+	<SDL2/SDL_opengles2.h>
+	<SDL2/SDL.h>
+	<GLFW/glfw3.h>
+	<GLFW/glfw3native.h>
+	<d3dx9.h>
+	<OpenGL/glext.h>
+	<GL/glext.h>
+	<OpenGL/gl.h>
+	<GL/gl.h>
+	"./addons/imguibindings/ImImpl_Binding_Glfw3.h"
+	<string.h>
+	<stdio.h>
+	<float.h>
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/GL/glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_opengl.h
+	"SDL_config.h"
+	"gl_mangle.h"
+	<windows.h>
+	"SDL_opengl_glext.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_opengl_glext.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_opengles2.h
+	"SDL_config.h"
+	<OpenGLES/ES2/gl.h>
+	<OpenGLES/ES2/glext.h>
+	<GLES2/gl2platform.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	"SDL_opengles2_khrplatform.h"
+	"SDL_opengles2_gl2platform.h"
+	"SDL_opengles2_gl2.h"
+	"SDL_opengles2_gl2ext.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_opengles2_khrplatform.h
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_opengles2_gl2platform.h
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_opengles2_gl2.h
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_opengles2_gl2ext.h
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Include/addons/imguibindings/ImImpl_Binding_Glfw3.h
+	"imguibindings.h"
+	<GLFW/glfw3native.h>
+	<X11/cursorfont.h>
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Include/addons/imguilistview/imguilistview.h
+	<imguilistview.h>
+	<imgui.h>
+	<stdio.h>
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Include/addons/imguifilesystem/imguifilesystem.h
+	"imguifilesystem.h"
+	<imgui.h>
+	<stdint.h>
+	<stdio.h>
+	<limits.h>
+	<linux/limits.h>
+	<windef.h>
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Include/addons/imguitoolbar/imguitoolbar.h
+	<imgui.h>
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Include/addons/imguipanelmanager/imguipanelmanager.h
+	"../imguitoolbar/imguitoolbar.h"
+	<imgui.h>
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Include/addons/imguivariouscontrols/imguivariouscontrols.h
+	<imgui.h>
+	"imguivariouscontrols.h"
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Include/addons/imguistyleserializer/imguistyleserializer.h
+	<imgui.h>
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Include/addons/imguidatechooser/imguidatechooser.h
+	<imgui.h>
+	"imguidatechooser.h"
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Include/addons/imguicodeeditor/imguicodeeditor.h
+	<imgui.h>
+	"../imguistring/imguistring.h"
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Include/addons/imguinodegrapheditor/imguinodegrapheditor.h
+	<imgui.h>
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Include/addons/imguidock/imguidock.h
+	<imgui.h>
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Include/addons/imguiyesaddons/imguipdfviewer.h
+	<imgui.h>
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Include/addons/imguiyesaddons/imguisdf.h
+	<imgui.h>
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Include/addons/imguiyesaddons/imguitinyfiledialogs.h
+	<stdio.h>
+	"tinyfiledialogs.h"
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Include/addons/imguiyesaddons/imguisqlite3.h
+	<imgui.h>
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Include/addons/imguiyesaddons/imguiimageeditor.h
+	<imgui.h>
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Include/addons/imguiyesaddons/imguifreetype.h
+	<imgui.h>
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Include/addons/imguiyesaddons/imguisoloud.h
+	<stdio.h>
+	<windows.h>
+	<assert.h>
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Include/addons/imguiyesaddons/imguiminigames.h
+	<imgui.h>
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Include/imgui_impl_opengl3.h
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Include/imgui_impl_sdl.h
+
+1579630669 source:/home/caden/Documents/GitHub/Vengance/Source/Engine/Librarys/Library_GLEW.cpp
+	"Library_GLEW.h"
+
+1579634192 /home/caden/Documents/GitHub/Vengance/Source/Engine/Librarys/Library_GLEW.h
+	"../Library.h"
+	<GL/glew.h>
+
+1574782673 source:/home/caden/Documents/GitHub/Vengance/Source/Engine/imgui/imgui.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<ctype.h>
+	<stdio.h>
+	<stddef.h>
+	<stdint.h>
+	"stb_sprintf.h"
+	<Windows.h>
+	<windows.h>
+	<TargetConditionals.h>
+	<Carbon/Carbon.h>
+	<imm.h>
+	"imgui_user.inl"
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Source/Engine/imgui/imgui.h
+	"imconfig.h"
+	<float.h>
+	<stdarg.h>
+	<stddef.h>
+	<string.h>
+	<assert.h>
+	<stdint.h>
+	"imgui_user.h"
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Source/Engine/imgui/imconfig.h
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Source/Engine/imgui/imgui_user.h
+	"./addons/imgui_user.h"
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Source/Engine/imgui/addons/imgui_user.h
+	"./imguiyesaddons/imguibz2.h"
+	"./imguiyesaddons/imguistringifier.h"
+	"./imguiyesaddons/imguiemscriptenpersistentfolder.h"
+	"./imguistring/imguistring.h"
+	"./imguihelper/imguihelper.h"
+	"./imguitabwindow/imguitabwindow.h"
+	"./imguibindings/imguibindings.h"
+	"./imguilistview/imguilistview.h"
+	"./imguifilesystem/imguifilesystem.h"
+	"./imguitoolbar/imguitoolbar.h"
+	"./imguipanelmanager/imguipanelmanager.h"
+	"./imguivariouscontrols/imguivariouscontrols.h"
+	"./imguistyleserializer/imguistyleserializer.h"
+	"./imguidatechooser/imguidatechooser.h"
+	"./imguicodeeditor/imguicodeeditor.h"
+	"./imguinodegrapheditor/imguinodegrapheditor.h"
+	"./imguidock/imguidock.h"
+	"./imguiyesaddons/imguipdfviewer.h"
+	"./imguiyesaddons/imguisdf.h"
+	"./imguiyesaddons/imguitinyfiledialogs.h"
+	"./imguiyesaddons/imguisqlite3.h"
+	"./imguiyesaddons/imguiimageeditor.h"
+	"./imguiyesaddons/imguifreetype.h"
+	"./imguiyesaddons/imguisoloud.h"
+	"./imguiyesaddons/imguiminigames.h"
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Source/Engine/imgui/addons/imguinodegrapheditor/imguinodegrapheditor.h
+	<imgui.h>
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Source/Engine/imgui/imgui_internal.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<limits.h>
+	"imstb_textedit.h"
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Source/Engine/imgui/imstb_textedit.h
+	<string.h>
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Source/Engine/imgui/imgui_user.inl
+	"./addons/imgui_user.inl"
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Source/Engine/imgui/addons/imgui_user.inl
+	<imgui_widgets.cpp>
+	"./imguistring/imguistring.cpp"
+	"./imguihelper/imguihelper.cpp"
+	"./imguitabwindow/imguitabwindow.cpp"
+	<emscripten.h>
+	"./imguibindings/ImImpl_Binding_Glut.h"
+	"./imguibindings/ImImpl_Binding_SDL2.h"
+	"./imguibindings/ImImpl_Binding_Glfw3.h"
+	"./imguibindings/ImImpl_Binding_Direct3D9.h"
+	"./imguibindings/ImImpl_Binding_WinAPI.h"
+	"./imguibindings/ImImpl_Binding_Glfw3.h"
+	"./imguibindings/imguibindings.cpp"
+	"./imguifilesystem/minizip/ioapi.c"
+	"./imguifilesystem/minizip/unzip.c"
+	"./imguifilesystem/minizip/zip.c"
+	"./imguiyesaddons/imguiemscriptenpersistentfolder.cpp"
+	"./imguilistview/imguilistview.cpp"
+	"./imguifilesystem/imguifilesystem.cpp"
+	"./imguitoolbar/imguitoolbar.cpp"
+	"./imguipanelmanager/imguipanelmanager.cpp"
+	"./imguivariouscontrols/imguivariouscontrols.cpp"
+	"./imguistyleserializer/imguistyleserializer.cpp"
+	"./imguidatechooser/imguidatechooser.cpp"
+	"./imguicodeeditor/imguicodeeditor.cpp"
+	"./imguiscintilla/imguiscintilla.cpp"
+	"./imguinodegrapheditor/imguinodegrapheditor.cpp"
+	"./imguidock/imguidock.cpp"
+	"./imguiyesaddons/imguibz2.cpp"
+	"./imguiyesaddons/imguistringifier.cpp"
+	"./imguiyesaddons/imguipdfviewer.cpp"
+	"./imguiyesaddons/imguisdf.cpp"
+	"./imguiyesaddons/imguitinyfiledialogs.cpp"
+	"./imguiyesaddons/imguisqlite3.cpp"
+	"./imguiyesaddons/imguiimageeditor.cpp"
+	"./imguiyesaddons/imguifreetype.cpp"
+	"./imguiyesaddons/imguiminigames.cpp"
+	"./imguiyesaddons/imguisoloud.cpp"
+
+1579631467 /home/caden/Documents/GitHub/Vengance/Source/Engine/imgui/addons/imguinodegrapheditor/imguinodegrapheditor.cpp
+	"../../imgui.h"
+	"../../imgui_internal.h"
+	<stdlib.h>
+	<alloca.h>
+	<malloc.h>
+	<alloca.h>
+	<stdlib.h>
+	"imguinodegrapheditor.h"
+	"../imguihelper/imguihelper.h"
+	"../imguihelper/imguihelper.h"
+	"../imguifilesystem/imguifilesystem.h"
+
+1574782673 source:/home/caden/Documents/GitHub/Vengance/Source/Engine/imgui/imgui_demo.cpp
+	"imgui.h"
+	<ctype.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdint.h>
+
+1574782673 source:/home/caden/Documents/GitHub/Vengance/Source/Engine/imgui/imgui_draw.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<stdio.h>
+	<alloca.h>
+	<malloc.h>
+	<stdlib.h>
+	"imstb_rectpack.h"
+	"imstb_truetype.h"
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Source/Engine/imgui/imstb_rectpack.h
+	<stdlib.h>
+	<assert.h>
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Source/Engine/imgui/imstb_truetype.h
+	"stb_truetype.h"
+	<stdio.h>
+	"stb_truetype.h"
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<string.h>
+
+1574782673 source:/home/caden/Documents/GitHub/Vengance/Source/Engine/imgui/imgui_impl_opengl3.cpp
+	"imgui.h"
+	"imgui_impl_opengl3.h"
+	<stdio.h>
+	<stddef.h>
+	<stdint.h>
+	"TargetConditionals.h"
+	<GLES2/gl2.h>
+	<OpenGLES/ES3/gl.h>
+	<GLES3/gl3.h>
+	<GL/gl3w.h>
+	<GL/glew.h>
+	<glad/glad.h>
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Source/Engine/imgui/imgui_impl_opengl3.h
+
+1574782673 source:/home/caden/Documents/GitHub/Vengance/Source/Engine/imgui/imgui_widgets.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<ctype.h>
+	<stddef.h>
+	<stdint.h>
+	"imstb_textedit.h"
+
+1579631467 source:/home/caden/Documents/GitHub/Vengance/Source/Engine/imgui/addons/imguinodegrapheditor/imguinodegrapheditor.cpp
+	"../../imgui.h"
+	"../../imgui_internal.h"
+	<stdlib.h>
+	<alloca.h>
+	<malloc.h>
+	<alloca.h>
+	<stdlib.h>
+	"imguinodegrapheditor.h"
+	"../imguihelper/imguihelper.h"
+	"../imguihelper/imguihelper.h"
+	"../imguifilesystem/imguifilesystem.h"
+
+1579631792 source:/home/caden/Documents/GitHub/Vengance/Source/Engine/imgui/imgui_impl_sdl.cpp
+	"imgui.h"
+	"imgui_impl_sdl.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_syswm.h>
+	"TargetConditionals.h"
+
+1574782673 /home/caden/Documents/GitHub/Vengance/Source/Engine/imgui/imgui_impl_sdl.h
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_syswm.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	<windows.h>
+	<Inspectable.h>
+	<X11/Xlib.h>
+	<X11/Xatom.h>
+	<directfb.h>
+	<UIKit/UIKit.h>
+	"SDL_egl.h"
+	"begin_code.h"
+	"close_code.h"
+
+1579605407 /home/caden/Documents/GitHub/Vengance/Include/SDL2/SDL_egl.h
+	<EGL/egl.h>
+	<EGL/eglext.h>
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+	<windows.h>
+	<Unknwn.h>
+	<mir_toolkit/mir_client_library.h>
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+

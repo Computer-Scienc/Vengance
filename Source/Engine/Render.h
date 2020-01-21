@@ -3,6 +3,10 @@
 
 #include "Object.h"
 
+#include <string>
+
+class VWindow;
+
 //Every window object has a renderer object that will have its own gl context and many other things.
 class VRender : public VObject
 {
@@ -13,6 +17,9 @@ class VRender : public VObject
         void Init();
         void Draw();
         void Shutdown();
+
+        VWindow* renderWindow;
+        std::string glsl_version;
 
     protected:
 

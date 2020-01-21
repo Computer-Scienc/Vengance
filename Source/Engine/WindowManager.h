@@ -19,6 +19,11 @@ class VWindowManager : public VObject
         void Draw();
         void Shutdown();
 
+        bool NewWindow(std::string windowName);
+        void CloseWindow(VWindow* windowToRemove);
+
+        VWindow* getWindowFromID(Uint32 id);
+
         VWindow* mainWindow;
         std::vector<VWindow*> windows_vector;
 
