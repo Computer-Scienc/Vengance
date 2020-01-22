@@ -15,7 +15,11 @@ class VWindow : public VObject
         virtual ~VWindow();
 
         bool Open(std::string winName);
+
+        //Updates the input
         void Update();
+
+        //Ends the windows existance
         void Close();
 
         Uint32 getID() { return SDL_GetWindowID(sdl_window); }
@@ -23,6 +27,8 @@ class VWindow : public VObject
         SDL_Window* sdl_window;
         SDL_GLContext sdl_glcontext;
 
+
+        //Draws stuff to the monitor
         VRender* renderer;
 
     protected:

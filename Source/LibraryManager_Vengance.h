@@ -3,6 +3,9 @@
 
 #include "Engine/LibraryManager.h"
 
+#include "Engine/Librarys/Library_SDL2.h"
+#include "Engine/Librarys/Library_GLEW.h"
+
 class VLibraryManager_Vengance : public VLibraryManager
 {
     public:

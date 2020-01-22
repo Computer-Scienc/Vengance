@@ -19,7 +19,7 @@ bool VLibraryManager::Init()
 
     for(int i = 0; i < int(librarys.size()); i++)
     {
-        if(librarys[i]->Init() != true)
+        if(!librarys[i]->customInit && librarys[i]->Init() != true)
         {
             VLogger::LogToConsole(std::string(librarys[i]->Name + " could not initalize."), Critical::Error);
             init = false;

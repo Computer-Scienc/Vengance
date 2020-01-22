@@ -3,6 +3,8 @@
 VLibrary_GLEW::VLibrary_GLEW()
 {
     //ctor
+    Name = "GLEW";
+    customInit = true;
 }
 
 VLibrary_GLEW::~VLibrary_GLEW()

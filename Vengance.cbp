@@ -5,7 +5,7 @@
 		<Option title="Vengance" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
-		<Option virtualFolders="Source/Engine/;Source/;" />
+		<Option virtualFolders="Source\Engine\;Source\;" />
 		<Build>
 			<Target title="DebugLinux">
 				<Option output="bin/DebugLinux/Vengence" prefix_auto="1" extension_auto="1" />
@@ -54,6 +54,7 @@
 					<Add option="-std=c++11" />
 					<Add option="-g" />
 					<Add option="-DGLEW_STATIC" />
+					<Add option="-D_WIN32" />
 					<Add directory="Source" />
 					<Add directory="Include" />
 				</Compiler>
@@ -147,6 +148,8 @@
 		<Unit filename="Source/LibraryManager_Vengance.cpp" />
 		<Unit filename="Source/LibraryManager_Vengance.h" />
 		<Unit filename="Source/Main.cpp" />
+		<Unit filename="Source/Render_Master.cpp" />
+		<Unit filename="Source/Render_Master.h" />
 		<Unit filename="icon.rc">
 			<Option compilerVar="WINDRES" />
 		</Unit>

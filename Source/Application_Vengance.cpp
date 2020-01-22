@@ -1,5 +1,7 @@
 #include "Application_Vengance.h"
 
+#include <memory>
+
 VApplication_Vengance::VApplication_Vengance()
 {
     //ctor
@@ -17,7 +19,9 @@ void VApplication_Vengance::Init()
 
     //Create Window
     winManager.Init();
-    winManager.NewWindow("");
+    //winManager.NewWindow("Test");
+
+    dynamic_cast<VLibrary_GLEW*>(libManager.GetLibrary("GLEW"))->Init();
 }
 
 void VApplication_Vengance::Update()
@@ -53,6 +57,9 @@ void VApplication_Vengance::Update()
                 }
             }
         }
+
+
+        winManager.Update();
     }
 }
 

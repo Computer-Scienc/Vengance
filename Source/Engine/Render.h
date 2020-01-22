@@ -6,6 +6,9 @@
 #include <string>
 
 class VWindow;
+class ImGuiContext;
+
+struct ImGuiIO;
 
 //Every window object has a renderer object that will have its own gl context and many other things.
 class VRender : public VObject
@@ -19,11 +22,15 @@ class VRender : public VObject
         void Shutdown();
 
         VWindow* renderWindow;
-        std::string glsl_version;
+
 
     protected:
 
     private:
+        std::string glsl_version;
+
+        ImGuiContext* imguiContext;
+        ImGuiIO* io;
 };
 
 #endif // RENDER_H

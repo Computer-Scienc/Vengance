@@ -1,5 +1,6 @@
 #include "WindowManager.h"
 
+#include "Render.h"
 #include "Logger.h"
 
 VWindowManager::VWindowManager()
@@ -40,7 +41,7 @@ void VWindowManager::Update()
     for(int i = 0; i < int(windows_vector.size()); i++)
     {
         windows_vector[i]->Update();
-        SDL_GL_SwapWindow(windows_vector[i]->sdl_window);
+        windows_vector[i]->renderer->Draw();
     }
 }
 

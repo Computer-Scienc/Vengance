@@ -16,6 +16,7 @@ class VLibrary : public VObject
         virtual bool Init() { return false; }
         virtual void Shutdown() { }
 
+        bool customInit = false;
         std::string Name = "Unknown Library";
     protected:
 
