@@ -2792,6 +2792,7 @@ class ComplexNode : public Node {
     float Value[3];     // field 1
     ImVec4 Color;       // field 2
     int enumIndex;      // field 3
+    float TESTVAL;
 
     // Support static method for enumIndex (the signature is the same used by ImGui::Combo(...))
     static bool GetTextFromEnumIndex(void* ,int value,const char** pTxt) {
@@ -2820,14 +2821,17 @@ class ComplexNode : public Node {
         ThisClass* node = (ThisClass*) ImGui::MemAlloc(sizeof(ThisClass));IM_PLACEMENT_NEW(node) ThisClass();
 
         // 2) main init
-        node->init("ComplexNode",pos,"in1;in2;in3","out1;out2",TYPE);
+        node->init("ComplexNode",pos,"in1;in2;in3;in4","out1;out2",TYPE);
 
         // 3) init fields ( this uses the node->fields variable; otherwise we should have overridden other virtual methods (to render and serialize) )
         node->fields.addField(&node->Value[0],3,"Angles","Three floats that are stored in radiant units internally",2,0,360,NULL,true);
         node->fields.addFieldColor(&node->Color.x,true,"Color","color with alpha");
+
         // addFieldEnum(...) now has all the 3 overloads ImGui::Combo(...) has.
         // addFieldEnum(...) [1] (item_count + external callback)
         node->fields.addFieldEnum(&node->enumIndex,3,&GetTextFromEnumIndex,"Fruit","Choose your favourite");
+        node->fields.addField(&node->TESTVAL, 1, "Test VAL","A Test VAL",0.0001f, 0.0f, 100.0f);
+
         // addFieldEnum(...) [2] (items_count + item_names)
         //static const char* FruitNames[3] = {"APPLE","LEMON","ORANGE"};
         //node->fields.addFieldEnum(&node->enumIndex,3,FruitNames,"Fruit","Choose your favourite");
@@ -2839,6 +2843,7 @@ class ComplexNode : public Node {
         node->Value[0] = 0;node->Value[1] = 3.14f; node->Value[2] = 4.68f;
         node->Color = ImColor(126,200,124,230);
         node->enumIndex = 1;
+        node->TESTVAL = 0.4f;
 
         return node;
     }

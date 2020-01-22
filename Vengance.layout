@@ -1,30 +1,95 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
-	<ActiveTarget name="DebugWindows" />
-	<File name="Source\Engine\Input.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<ActiveTarget name="DebugLinux" />
+	<File name="Source/Engine/imgui/addons/imguinodegrapheditor/imguinodegrapheditor.h" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="102" topLine="0" />
+			<Cursor1 position="43130" topLine="751" />
 		</Cursor>
 	</File>
-	<File name="Source\Engine\Logger.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Source/Engine/Data/Enum.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="106" topLine="0" />
+			<Cursor1 position="19" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="Source\Render_Master.cpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Source/Render_Master.cpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="0" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="Source\Engine\Render.cpp" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Source/Engine/Logger.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="2561" topLine="65" />
+			<Cursor1 position="106" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="Source\Main.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Source/Engine/Librarys/Library_SDL2.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="184" topLine="0" />
+			<Cursor1 position="61" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Source/Engine/Librarys/Library_GLEW.h" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="255" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Source/Engine/WindowManager.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="380" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Source/LibraryManager_Vengance.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="268" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Source/Engine/Input.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="102" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Source/Application_Vengance.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="479" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Source/Render_Master.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="50" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Source/Engine/Data/Enum.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="211" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Source/Engine/Library.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="84" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Source/LibraryManager_Vengance.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="135" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Source/Engine/Window.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="115" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Source/Engine/Logger.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="444" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Source/Engine/Application.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="45" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Source/Engine/Render.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="389" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="icon.rc" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -32,119 +97,59 @@
 			<Cursor1 position="19" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="Source\Engine\WindowManager.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Source/Main.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1457" topLine="0" />
+			<Cursor1 position="184" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="Source\Engine\imgui\imgui.h" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="121426" topLine="1068" />
-		</Cursor>
-	</File>
-	<File name="Source\Render_Master.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="71" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Source\LibraryManager_Vengance.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="268" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Source\Engine\imgui\addons\imguinodegrapheditor\imguinodegrapheditor.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="227" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Source\Engine\Data\Enum.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="211" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Source\Engine\Librarys\Library_GLEW.h" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="255" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Source\Engine\Librarys\Library_SDL2.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="61" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Source\Engine\Application.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="45" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Source\Engine\LibraryManager.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="572" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Source\Engine\Application.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Source/Engine/Application.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="64" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="Source\Engine\Render.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="339" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Source\Engine\Data\Enum.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="19" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Source\Application_Vengance.cpp" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="481" topLine="15" />
-		</Cursor>
-	</File>
-	<File name="Source\Engine\Library.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="84" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Source\Engine\Window.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="890" topLine="16" />
-		</Cursor>
-	</File>
-	<File name="Source\Application_Vengance.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="479" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Source\Engine\WindowManager.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="380" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Source\Engine\Window.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="115" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Source\Engine\imgui\imgui_impl_sdl.cpp" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1769" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Source\Engine\LibraryManager.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Source/Engine/LibraryManager.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="305" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="Source\LibraryManager_Vengance.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Source/Engine/imgui/addons/imguinodegrapheditor/imguinodegrapheditor.cpp" open="1" top="1" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="135" topLine="0" />
+			<Cursor1 position="157745" topLine="2822" />
 		</Cursor>
 	</File>
-	<File name="Source\Engine\Logger.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Source/Engine/WindowManager.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="444" topLine="0" />
+			<Cursor1 position="1457" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Source/Application_Vengance.cpp" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="481" topLine="15" />
+		</Cursor>
+	</File>
+	<File name="Source/Engine/Window.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="970" topLine="2" />
+		</Cursor>
+	</File>
+	<File name="Source/Engine/imgui/imgui_impl_sdl.cpp" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1769" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Source/Engine/Render.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2603" topLine="54" />
+		</Cursor>
+	</File>
+	<File name="Source/Engine/imgui/imgui.h" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="121426" topLine="1068" />
+		</Cursor>
+	</File>
+	<File name="Source/Engine/LibraryManager.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="572" topLine="0" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

@@ -8,6 +8,8 @@
 #include "imgui/imgui_impl_opengl3.h"
 #include "imgui/imgui_impl_sdl.h"
 
+#include "imgui/addons/imguinodegrapheditor/imguinodegrapheditor.h"
+
 #include "Window.h"
 
 VRender::VRender()
@@ -80,6 +82,7 @@ void VRender::Draw()
     ImGui::NewFrame();
 
     ImGui::ShowDemoWindow();
+    ImGui::TestNodeGraphEditor();
     //ImGui::Show
 
 

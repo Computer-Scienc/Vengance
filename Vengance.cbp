@@ -5,7 +5,7 @@
 		<Option title="Vengance" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
-		<Option virtualFolders="Source\Engine\;Source\;" />
+		<Option virtualFolders="Source/Engine/;Source/;" />
 		<Build>
 			<Target title="DebugLinux">
 				<Option output="bin/DebugLinux/Vengence" prefix_auto="1" extension_auto="1" />
@@ -35,14 +35,17 @@
 					<Add option="-O2" />
 					<Add option="-std=c++11" />
 					<Add directory="Source" />
-					<Add directory="./" />
-					<Add directory="Source/Librarys" />
-					<Add directory="Librarys" />
-					<Add directory="Source/Engine" />
-					<Add directory="Source/Engine/Data" />
+					<Add directory="Include" />
 				</Compiler>
+				<ResourceCompiler>
+					<Add directory="../Vengance" />
+				</ResourceCompiler>
 				<Linker>
 					<Add option="-s" />
+					<Add option="-lSDL2main" />
+					<Add option="-lSDL2" />
+					<Add option="-lGLEW" />
+					<Add option="-lGL" />
 				</Linker>
 			</Target>
 			<Target title="DebugWindows">
