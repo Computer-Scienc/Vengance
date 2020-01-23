@@ -5,7 +5,7 @@
 		<Option title="Vengance" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
-		<Option virtualFolders="Source\Engine\;Source\;" />
+		<Option virtualFolders="Source/Engine/;Source/;" />
 		<Build>
 			<Target title="DebugLinux">
 				<Option output="bin/DebugLinux/Vengence" prefix_auto="1" extension_auto="1" />
@@ -139,11 +139,6 @@
 		</Unit>
 		<Unit filename="Source/Engine/WindowManager.cpp" />
 		<Unit filename="Source/Engine/WindowManager.h" />
-		<Unit filename="Source/Engine/imgui/addons/imgui_user.h" />
-		<Unit filename="Source/Engine/imgui/addons/imguihelper/imguihelper.cpp" />
-		<Unit filename="Source/Engine/imgui/addons/imguihelper/imguihelper.h" />
-		<Unit filename="Source/Engine/imgui/addons/imguinodegrapheditor/imguinodegrapheditor.cpp" />
-		<Unit filename="Source/Engine/imgui/addons/imguinodegrapheditor/imguinodegrapheditor.h" />
 		<Unit filename="Source/Engine/imgui/imconfig.h" />
 		<Unit filename="Source/Engine/imgui/imgui.cpp" />
 		<Unit filename="Source/Engine/imgui/imgui.h" />
@@ -154,8 +149,9 @@
 		<Unit filename="Source/Engine/imgui/imgui_impl_sdl.cpp" />
 		<Unit filename="Source/Engine/imgui/imgui_impl_sdl.h" />
 		<Unit filename="Source/Engine/imgui/imgui_internal.h" />
-		<Unit filename="Source/Engine/imgui/imgui_user.h" />
 		<Unit filename="Source/Engine/imgui/imgui_widgets.cpp" />
+		<Unit filename="Source/Engine/imgui/imnodes.cpp" />
+		<Unit filename="Source/Engine/imgui/imnodes.h" />
 		<Unit filename="Source/Engine/imgui/imstb_rectpack.h" />
 		<Unit filename="Source/Engine/imgui/imstb_textedit.h" />
 		<Unit filename="Source/Engine/imgui/imstb_truetype.h" />

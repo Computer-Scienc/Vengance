@@ -4,7 +4,7 @@
 #include "Drawable.h"
 
 #include "imgui/imgui.h"
-#include "imgui/addons/imguinodegrapheditor/imguinodegrapheditor.h"
+#include "imgui/imnodes.h"
 
 class VGraph : public VDrawable
 {
@@ -16,13 +16,12 @@ class VGraph : public VDrawable
         virtual void Draw() override;
         virtual void Shutdown() override;
 
-        static ImGui::Node* NodeFactory(int nodeNum, const ImVec2& pos, const ImGui::NodeGraphEditor& /*nge*/);
 
 
     protected:
 
     private:
-        ImGui::NodeGraphEditor nge;
+
 };
 
 #endif // AGRAPH_H

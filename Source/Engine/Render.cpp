@@ -8,7 +8,7 @@
 #include "imgui/imgui_impl_opengl3.h"
 #include "imgui/imgui_impl_sdl.h"
 
-#include "imgui/addons/imguinodegrapheditor/imguinodegrapheditor.h"
+#include "Graph.h"
 
 #include "Window.h"
 
@@ -36,6 +36,8 @@ VRender::VRender()
     SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER, 1);
     SDL_GL_SetAttribute(SDL_GL_DEPTH_SIZE, 24);
     SDL_GL_SetAttribute(SDL_GL_STENCIL_SIZE, 8);
+
+    grph = new VGraph();
 
 }
 
@@ -67,7 +69,9 @@ void VRender::Init()
     ImGui_ImplSDL2_InitForOpenGL(renderWindow->sdl_window, renderWindow->sdl_glcontext);
     ImGui_ImplOpenGL3_Init(glsl_version.c_str());
 
+    imnodes::Initialize();
 
+    grph->Init();
 
 }
 
@@ -85,9 +89,8 @@ void VRender::Draw()
 
 
     ImGui::ShowDemoWindow();
-    ImGui::TestNodeGraphEditor();
-    //ImGui::Show
 
+    grph->Draw();
 
      ImGui::Render();
     //glViewport(0, 0, (int)io.DisplaySize.x, (int)io.DisplaySize.y);
@@ -107,5 +110,10 @@ void VRender::Draw()
 
 void VRender::Shutdown()
 {
+    grph->Shutdown();
+
+    imnodes::Shutdown();
+
+    ImGui_ImplOpenGL3_Shutdown();
     ImGui_ImplSDL2_Shutdown();
 }

@@ -6,6 +6,7 @@
 #include <string>
 
 class VWindow;
+class VGraph;
 class ImGuiContext;
 
 struct ImGuiIO;
@@ -31,6 +32,7 @@ class VRender : public VObject
 
         ImGuiContext* imguiContext;
         ImGuiIO* io;
+        VGraph* grph;
 };
 
 #endif // RENDER_H
