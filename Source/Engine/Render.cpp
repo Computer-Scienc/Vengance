@@ -59,8 +59,10 @@ void VRender::Init()
     //io.ConfigFlags |= ImGuiConfigFlags_NavEnableGamepad;      // Enable Gamepad Controls
     io->ConfigFlags |= ImGuiConfigFlags_DockingEnable;           // Enable Docking
     io->ConfigFlags |= ImGuiConfigFlags_ViewportsEnable;         // Enable Multi-Viewport / Platform Windows
+    //io->ConfigViewportsNoDecoration = false;
     //io.ConfigViewportsNoAutoMerge = true;
-    //io.ConfigViewportsNoTaskBarIcon = true;
+    io->ConfigViewportsNoTaskBarIcon = true;
+    io->ConfigViewportsNoDefaultParent = true;
 
     ImGui_ImplSDL2_InitForOpenGL(renderWindow->sdl_window, renderWindow->sdl_glcontext);
     ImGui_ImplOpenGL3_Init(glsl_version.c_str());
@@ -80,6 +82,7 @@ void VRender::Draw()
     ImGui_ImplOpenGL3_NewFrame();
     ImGui_ImplSDL2_NewFrame(renderWindow->sdl_window);
     ImGui::NewFrame();
+
 
     ImGui::ShowDemoWindow();
     ImGui::TestNodeGraphEditor();

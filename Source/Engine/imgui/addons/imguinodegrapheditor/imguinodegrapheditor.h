@@ -6,8 +6,10 @@
 #define IMGUINODEGRAPHEDITOR_H_
 
 #ifndef IMGUI_API
-#include <imgui.h>
+#include "../../imgui.h"
 #endif //IMGUI_API
+
+#include "../imguihelper/imguihelper.h"
 
 /*
  *   // Basic usage:
@@ -180,6 +182,7 @@ enum FieldType {
     class FieldInfoVector : public ImVector < FieldInfo >    {
     public:
     // Warning: returned reference might not stay valid for long in these methods
+    IMGUI_API FieldInfo& addField(const char* label=NULL,const char* tooltip=NULL, void* userData=NULL); // Used for
     IMGUI_API FieldInfo& addField(int* pdata,int numArrayElements=1,const char* label=NULL,const char* tooltip=NULL,int precision=0,int lowerLimit=0,int upperLimit=100,void* userData=NULL);
     IMGUI_API FieldInfo& addField(unsigned* pdata,int numArrayElements=1,const char* label=NULL,const char* tooltip=NULL,int precision=0,unsigned lowerLimit=0,unsigned upperLimit=100,void* userData=NULL);
     IMGUI_API FieldInfo& addField(float* pdata,int numArrayElements=1,const char* label=NULL,const char* tooltip=NULL,int precision=3,float lowerLimit=0,float upperLimit=1,void* userData=NULL,bool needsRadiansToDegs=false);
@@ -267,7 +270,7 @@ class Node
     inline int getType() const {return typeID;}
     inline int getNumInputSlots() const {return InputsCount;}
     inline int getNumOutputSlots() const {return OutputsCount;}
-    inline void setOpen(bool flag) {isOpen=flag;}    
+    inline void setOpen(bool flag) {isOpen=flag;}
 
     protected:
     FieldInfoVector fields; // I guess you can just skip these at all and implement virtual methods... but it was supposed to be useful...
@@ -435,7 +438,7 @@ class NodeGraphEditor
         ImU32 color_node_title_background;
         float color_node_title_background_gradient;
         ImVec4 color_node_input_slots_names;
-        ImVec4 color_node_output_slots_names;        
+        ImVec4 color_node_output_slots_names;
         ImU32 color_mouse_rectangular_selection;
         ImU32 color_mouse_rectangular_selection_frame;
         Style() {

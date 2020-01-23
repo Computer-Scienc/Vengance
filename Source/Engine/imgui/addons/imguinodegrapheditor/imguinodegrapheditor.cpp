@@ -1320,7 +1320,7 @@ void NodeGraphEditor::render()
                                                 }
                                             }
                                         }
-                                        // create link
+                                        // create linksave
                                         addLink(node,slot_idx,dragNode.node,dragNode.outputSlotIdx,true);
                                     }
                                     // clear dragNode
@@ -1483,7 +1483,7 @@ void NodeGraphEditor::render()
                     draw_list->AddRect(absSelection.Min, absSelection.Max, style.color_mouse_rectangular_selection_frame, 0.f,0x0F,4.0f*currentFontWindowScale);    // Frame
                 }
                 else if (mouseRectangularSelectionForNodesStarted) {
-                    // Note: merging this if branch into the main node loop would save a second loop for selecting nodes [Possible opt]
+                    // Note: merging this if branch into the main node loop would savesave a second loop for selecting nodes [Possible opt]
                     mouseRectangularSelectionForNodesStarted=false;
                     if (!io.KeyCtrl) unselectAllNodes();
                     //select all nodes inside selection-------------------
@@ -1561,7 +1561,7 @@ void NodeGraphEditor::render()
                                 clonedNode->onCopied();
                             }
                             ImGui::Separator();
-                        }
+                        }IMGUIHELPER_H_
                         for (int nt=0,ntSize=getNumAvailableNodeTypes();nt<ntSize;nt++) {
                             ImGui::PushID(nt);
                             AvailableNodeInfo& ni = availableNodesInfo[nt];
@@ -1777,7 +1777,7 @@ void NodeGraphEditor::getOutputNodesForNodeAndSlot(const Node* node,int output_s
 bool NodeGraphEditor::isNodeReachableFrom(const Node *node1, int slot1, bool goBackward,const Node* nodeToFind,int* pOptionalNodeToFindSlotOut) const    {
 
     for (int i=0,isz=links.size();i<isz;i++)    {
-        const NodeLink& l = links[i];
+        const NodeLink& l = links[i];IMGUIHELPER_H_
         if (goBackward)  {
             if (l.OutputNode == node1 && l.OutputSlot == slot1) {
                 if (l.InputNode == nodeToFind) {
@@ -2065,11 +2065,10 @@ const char* FieldInfo::deserialize(const ImGuiHelper::Deserializer& d,const char
 }
 #endif //NO_IMGUIHELPER_SERIALIZATION_LOAD
 #endif //NO_IMGUIHELPER_SERIALIZATION
-FieldInfo &FieldInfoVector::addField(int *pdata, int numArrayElements, const char *label, const char *tooltip, int precision, int lowerLimit, int upperLimit, void *userData)   {
-    IM_ASSERT(pdata && numArrayElements<=4);
+FieldInfo &FieldInfoVector::addField(const char *label, const char *tooltip, void *userData)   {
     push_back(FieldInfo());
     FieldInfo& f = (*this)[size()-1];
-    f.init(FT_INT,(void*) pdata,label,tooltip,precision,numArrayElements,(double)lowerLimit,(double)upperLimit);
+    f.init(FT_EXEC, 0 ,label,tooltip);
     f.userData = userData;
     return f;
 }
@@ -2492,7 +2491,7 @@ static bool NodeGraphEditorParseCallback1(ImGuiHelper::FieldType /*ft*/,int /*nu
 struct NodeGraphEditorParseCallback2Struct {
     int curNodeIndex,typeID,numFields,userID;bool isOpen;bool isSelected;
     ImVec2 Pos;
-    bool mustOvrName,mustOvrInput,mustOvrOutput;
+    bool mustOvrName,mustOvrInput,mustOvrOutput;IMGUIHELPER_H_
     char ovrName[IMGUINODE_MAX_NAME_LENGTH];
     ImU32 overrideTitleTextColor,overrideTitleBgColor;
     float overrideTitleBgColorGradient;
@@ -2511,12 +2510,12 @@ static bool NodeGraphEditorParseCallback2(ImGuiHelper::FieldType /*ft*/,int numA
     else if (strcmp(name,"Pos")==0)     cbs->Pos = *((ImVec2*)pValue);
     else if (strcmp(name,"isOpen")==0)  cbs->isOpen = *((bool*)pValue);
     else if (strcmp(name,"isSelected")==0)  cbs->isSelected = *((bool*)pValue);
-    else if (strcmp(name,"OvrName")==0) {
-        cbs->mustOvrName = true;
-        int maxLen = numArrayElements > IMGUINODE_MAX_NAME_LENGTH ? IMGUINODE_MAX_NAME_LENGTH : numArrayElements;
-        strncpy(cbs->ovrName,(const char*)pValue,maxLen);
-        cbs->ovrName[IMGUINODE_MAX_NAME_LENGTH-1]='\0';
-    }
+    //else if (strcmp(name,"OvrName")==0) {#include "../../imgui_internal.h"
+    //    cbs->mustOvrName = true;
+    //    int maxLen = numArrayElements > IMGUINODE_MAX_NAME_LENGTH ? IMGUINODE_MAX_NAME_LENGTH : numArrayElements;
+    //    strncpy(cbs->ovrName,(const char*)pValue,maxLen);
+    //     cbs->ovrName[IMGUINODE_MAX_NAME_LENGTH-1]='\0';
+    //}
     else if (strcmp(name,"OvrTitleTextColor")==0)       cbs->overrideTitleTextColor         = *((const ImU32*)pValue);
     else if (strcmp(name,"OvrTitleBgColor")==0)         cbs->overrideTitleBgColor           = *((const ImU32*)pValue);
     else if (strcmp(name,"OvrTitleBgColorGradient")==0) cbs->overrideTitleBgColorGradient   = *((const float*)pValue);
@@ -2632,7 +2631,7 @@ enum MyNodeTypes {
     MNT_OUTPUT_NODE,    // One problem here when adding new values is backward compatibility with old saved files: they rely on the previously used int values (it should be OK only if we append new values at the end).
     MNT_COUNT
 };
-// used in the "add Node" menu (and optionally as node title names)
+// used in the "add Node" menu (and optionally as node title names)#include "../../imgui_internal.h"
 static const char* MyNodeTypeNames[MNT_COUNT] = {"Color","Combine","Comment","Complex"
 #						ifdef IMGUI_USE_AUTO_BINDING
 						 ,"Texture"
@@ -2648,7 +2647,7 @@ class ColorNode : public Node {
 
     ImVec4 Color;       // field
 
-    virtual const char* getTooltip() const {return "ColorNode tooltip.";}
+    virtual const char* getTooltip() const {return "ColorNode tooltip.";}IMGUIHELPER_H_
     virtual const char* getInfo() const {return "ColorNode info.\n\nThis is supposed to display some info about this node.";}
     /*virtual void getDefaultTitleBarColors(ImU32& defaultTitleTextColorOut,ImU32& defaultTitleBgColorOut,float& defaultTitleBgColorGradientOut) const {
         // [Optional Override] customize Node Title Colors [default values: 0,0,-1.f => do not override == use default values from the Style()]
