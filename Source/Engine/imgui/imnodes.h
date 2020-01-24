@@ -87,7 +87,7 @@ void Shutdown();
 // Returns the global style struct. See the struct declaration for default
 // values.
 Style& GetStyle();
-// Style presets matching the dear imgui styles of the same name.
+// Style presets atching the dear imgui styles of the same name.
 void StyleColorsDark(); // on by default
 void StyleColorsClassic();
 void StyleColorsLight();

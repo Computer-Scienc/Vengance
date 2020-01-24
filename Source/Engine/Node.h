@@ -1,7 +1,7 @@
 #ifndef VNODE_H
 #define VNODE_H
 
-#include "VObject.h"
+#include "Object.h"
 
 
 class VNode : public VObject
@@ -9,6 +9,9 @@ class VNode : public VObject
     public:
         VNode();
         virtual ~VNode();
+
+
+
 
     protected:
 

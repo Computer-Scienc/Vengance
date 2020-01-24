@@ -14,17 +14,17 @@
 1579573883 source:d:\github\vengance\source\main.cpp
 	"Application_Vengance.h"
 
-1579734106 source:d:\github\vengance\source\engine\render.cpp
+1579814272 source:d:\github\vengance\source\engine\render.cpp
 	"Render.h"
 	"Librarys/Library_SDL2.h"
 	<GL/glew.h>
 	"imgui/imgui.h"
 	"imgui/imgui_impl_opengl3.h"
 	"imgui/imgui_impl_sdl.h"
-	"imgui/addons/imguinodegrapheditor/imguinodegrapheditor.h"
+	"Graph.h"
 	"Window.h"
 
-1579651992 d:\github\vengance\source\engine\render.h
+1579814272 d:\github\vengance\source\engine\render.h
 	"Object.h"
 	<string>
 
@@ -1671,13 +1671,16 @@
 1579662102 /home/caden/Documents/GitHub/Vengance/Source/Render_Master.h
 	"Engine/Render.h"
 
-1579745531 source:d:\github\vengance\source\engine\graph.cpp
+1579835545 source:d:\github\vengance\source\engine\graph.cpp
 	"Graph.h"
+	<fstream>
+	<string>
+	<json.hpp>
 
-1579745148 d:\github\vengance\source\engine\graph.h
+1579835163 d:\github\vengance\source\engine\graph.h
 	"Drawable.h"
 	"imgui/imgui.h"
-	"imgui/addons/imguinodegrapheditor/imguinodegrapheditor.h"
+	"imgui/imnodes.h"
 
 1579735096 d:\github\vengance\source\engine\drawable.h
 	"Object.h"
@@ -1931,4 +1934,192 @@
 	<cstring>
 	<limits>
 	<type_traits>
+
+1579814272 source:d:\github\vengance\source\engine\imgui\imnodes.cpp
+	"imnodes.h"
+	"imgui.h"
+	"imgui_internal.h"
+	<assert.h>
+	<new>
+	<stdint.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1579815253 d:\github\vengance\source\engine\imgui\imnodes.h
+	<stddef.h>
+
+1579481414 d:\github\vengance\include\json.hpp
+	<algorithm>
+	<cassert>
+	<ciso646>
+	<cstddef>
+	<functional>
+	<initializer_list>
+	<iosfwd>
+	<iterator>
+	<memory>
+	<numeric>
+	<string>
+	<utility>
+	<vector>
+	<utility>
+	<algorithm>
+	<array>
+	<ciso646>
+	<forward_list>
+	<iterator>
+	<map>
+	<string>
+	<tuple>
+	<type_traits>
+	<unordered_map>
+	<utility>
+	<valarray>
+	<exception>
+	<stdexcept>
+	<string>
+	<cstddef>
+	<utility>
+	<stdint.h>
+	<stdint.h>
+	<cstdlib>
+	<ciso646>
+	<cstddef>
+	<type_traits>
+	<ciso646>
+	<limits>
+	<type_traits>
+	<utility>
+	<iterator>
+	<type_traits>
+	<cstdint>
+	<map>
+	<memory>
+	<string>
+	<vector>
+	<array>
+	<ciso646>
+	<cstddef>
+	<cstdint>
+	<string>
+	<algorithm>
+	<ciso646>
+	<iterator>
+	<string>
+	<tuple>
+	<type_traits>
+	<utility>
+	<valarray>
+	<vector>
+	<cstddef>
+	<iterator>
+	<string>
+	<tuple>
+	<algorithm>
+	<array>
+	<cassert>
+	<cmath>
+	<cstddef>
+	<cstdint>
+	<cstdio>
+	<cstring>
+	<iterator>
+	<limits>
+	<string>
+	<utility>
+	<array>
+	<cassert>
+	<cstddef>
+	<cstdio>
+	<cstring>
+	<istream>
+	<iterator>
+	<memory>
+	<numeric>
+	<string>
+	<type_traits>
+	<utility>
+	<cassert>
+	<cstddef>
+	<string>
+	<utility>
+	<vector>
+	<cstdint>
+	<utility>
+	<string>
+	<array>
+	<clocale>
+	<cstddef>
+	<cstdio>
+	<cstdlib>
+	<initializer_list>
+	<string>
+	<utility>
+	<vector>
+	<cassert>
+	<cmath>
+	<cstdint>
+	<functional>
+	<string>
+	<utility>
+	<vector>
+	<cstddef>
+	<limits>
+	<ciso646>
+	<iterator>
+	<type_traits>
+	<cstddef>
+	<iterator>
+	<utility>
+	<algorithm>
+	<cassert>
+	<cctype>
+	<numeric>
+	<string>
+	<utility>
+	<vector>
+	<initializer_list>
+	<utility>
+	<algorithm>
+	<array>
+	<cstdint>
+	<cstring>
+	<limits>
+	<string>
+	<algorithm>
+	<cstddef>
+	<ios>
+	<iterator>
+	<memory>
+	<ostream>
+	<string>
+	<vector>
+	<algorithm>
+	<array>
+	<cassert>
+	<ciso646>
+	<clocale>
+	<cmath>
+	<cstddef>
+	<cstdint>
+	<cstdio>
+	<limits>
+	<string>
+	<type_traits>
+	<utility>
+	<array>
+	<cassert>
+	<ciso646>
+	<cmath>
+	<cstdint>
+	<cstring>
+	<limits>
+	<type_traits>
+
+1579814272 source:d:\github\vengance\source\engine\node.cpp
+	"Node.h"
+
+1579817240 d:\github\vengance\source\engine\node.h
+	"Object.h"
 
