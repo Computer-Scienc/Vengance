@@ -50,58 +50,71 @@ void VGraph::Draw()
 
     imnodes::EndNode();
 
+
     imnodes::EndNodeEditor();
 
-        if(settingWinToMousePos)
-        {
-            ImGui::SetNextWindowPos(ImGui::GetMousePos());
-            settingWinToMousePos = false;
-        }
       const bool open_popup =
             ImGui::IsMouseClicked(1);
 
 
 
-        ImGui::PushStyleVar(ImGuiStyleVar_WindowPadding, ImVec2(8.f, 8.f));
+    ImGui::PushStyleVar(ImGuiStyleVar_WindowPadding, ImVec2(8.f, 8.f));
+
+    /*
+    if(setWindowPos == false)
+    {
+
+        float mouseX = ImGui::GetMousePos().x;
+        float mouseY = ImGui::GetMousePos().y;
+
+        ImVec2 newPos = ImVec2(mouseX, mouseY - (mouseY / 2));
+
+        ImGui::SetNextWindowPos(newPos);
+        setWindowPos = true;
+    }
+    */
+
+
+    if (!ImGui::IsAnyItemHovered() && open_popup)
+    {
+        ImGui::OpenPopup("Add Node");
+    }
 
 
 
-        if (!ImGui::IsAnyItemHovered() && open_popup)
-        {
-            ImGui::OpenPopup("Add Node");
-        }
+    if (ImGui::BeginPopup("Add Node"))
+    {
+        ImVec2 click_pos = ImGui::GetMousePosOnOpeningCurrentPopup();
 
-        //ImGuiWindowFlags_
 
-        if (ImGui::BeginPopup("Add Node", ))
-        {
-            ImVec2 click_pos = ImGui::GetMousePosOnOpeningCurrentPopup();
 
-            int num = 0;
-            int numOfNodes = 65;
+        int num = 0;
+        int numOfNodes = 65;
 
 //            if(ImGui::InputText("Test"))
- //           {
+//           {
 
-           // }
+       // }
 
 
-            for(int i = 0; i < numOfNodes; i++)
-            {
-                if (ImGui::MenuItem(std::string(std::string("Num: ") + std::to_string(i)).c_str()));
-                {
-
-                }
-            }
-
-            ImGui::EndPopup();
-        }
-        else
+        for(int i = 0; i < numOfNodes; i++)
         {
-                settingWinToMousePos = true;
+            if (ImGui::MenuItem(std::string(std::string("Num: ") + std::to_string(i)).c_str()));
+            {
+
+            }
         }
 
-        ImGui::PopStyleVar();
+
+        ImGui::EndPopup();
+    }
+    else
+    {
+        setWindowPos = false;
+    }
+
+
+    ImGui::PopStyleVar();
 
     ImGui::End();
 }

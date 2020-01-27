@@ -21,7 +21,7 @@ class VGraph : public VDrawable
     protected:
 
     private:
-        bool settingWinToMousePos = true;
+        bool setWindowPos = false;
 
 };
 
